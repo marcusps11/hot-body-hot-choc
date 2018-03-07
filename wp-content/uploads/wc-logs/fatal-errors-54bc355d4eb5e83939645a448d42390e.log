@@ -1,0 +1,136 @@
+2018-02-06T23:28:37+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/hot-body-hot-chocolate/index.php:15
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-02-07T17:06:21+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/hot-body-hot-chocolate/index.php:15
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-02-07T17:22:53+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/hot-body-hot-chocolate/index.php:15
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-02-12T13:43:50+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/hot-body-hot-chocolate/index.php:15
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-02-12T13:50:38+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/hot-body-hot-chocolate/index.php:15
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-02-12T13:52:33+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/hot-body-hot-chocolate/index.php:15
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-02-12T14:24:37+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/hot-body-hot-chocolate/index.php:15
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-02-16T11:26:59+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/marcus-child/tpl_template-name.php:38
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-02-17T12:07:22+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/marcus-child/tpl_template-name.php:38
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-03-01T18:21:42+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/marcus-child/tpl_template-name.php:38
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-03-01T18:22:19+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/marcus-child/tpl_template-name.php:38
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-03-07T19:07:49+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/marcus-child/tpl_template-name.php:38
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-03-07T20:17:08+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/marcus-child/tpl_template-name.php:38
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-03-07T20:17:13+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/marcus-child/tpl_template-name.php:38
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-03-07T20:19:05+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/marcus-child/tpl_template-name.php:38
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-03-07T20:20:14+00:00 CRITICAL Uncaught Error: Call to undefined function have_post() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/marcus-child/tpl_template-name.php:37
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
+2018-03-07T20:20:29+00:00 CRITICAL Uncaught Error: Call to undefined function the_autor_posts_link() in /Users/marcusps/Desktop/development/wordpress-setup/wp-content/themes/marcus-child/tpl_template-name.php:41
+Stack trace:
+#0 /Users/marcusps/Desktop/development/wordpress-setup/wp-includes/template-loader.php(74): include()
+#1 /Users/marcusps/Desktop/development/wordpress-setup/wp-blog-header.php(19): require_once('/Users/marcusps...')
+#2 /Users/marcusps/Desktop/development/wordpress-setup/index.php(17): require('/Users/marcusps...')
+#3 {main}
+  thrown
+
