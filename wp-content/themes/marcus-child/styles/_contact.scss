@@ -1,0 +1,68 @@
+.fc-contact-form {
+  display: block;
+  margin: 0 auto;
+  max-width: 40rem;
+  width: 90%;
+  font-family: $font-secondary;
+
+  &__field {
+    margin: 2rem 0;
+  }
+
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+    font-family: $font-secondary;
+    background-color: $form-input-color;
+    font-size: 2rem;
+    color: $color-white;
+    padding: 1rem;
+    border: 0;
+  }
+
+  &__message {
+    min-height: 18rem;
+  }
+
+  &__response {
+    display: none;
+    padding: 2rem;
+
+    .fc-contact-form--success & {
+      display: block;
+      background: $success-green;
+    }
+
+    .fc-contact-form--error & {
+      display: block;
+      background: $fail-red;
+    }
+  }
+
+  &__label {
+    padding: 1rem 0;
+    display: block;
+  }
+
+  &__submit {
+    background-image: none;
+    background-color: #e47f00;
+    border: 0;
+    box-shadow: inset 0 -2px 0 rgba(34, 34, 40, .225);
+    text-transform: uppercase;
+    color: #fff;
+    font-family: $font-secondary;
+    padding: 22px 44px;
+    font-size: 13px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+
+    &:hover,
+    &:hover {
+      background-color: #cd7200;
+    }
+  }
+}

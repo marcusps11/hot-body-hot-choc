@@ -1,0 +1,26 @@
+.fc-footer {
+  flex-shrink: 0;
+  padding: 20px;
+  background: $footer-color;
+  color: white;
+
+  p,
+  a {
+    margin: 0;
+    color: $form-input-color;
+  }
+
+  &__block {
+    text-align: center;
+
+    @include breakpoint(midDisplay) {
+      &--left {
+        text-align: left;
+      }
+
+      &--right {
+        text-align: right;
+      }
+    }
+  }
+}

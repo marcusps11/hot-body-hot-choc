@@ -3,14 +3,14 @@ const path = require('path')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const entry = [path.resolve(__dirname, 'src/scripts/app.js'), path.resolve(__dirname, 'src/styles/main.scss')];
+const entry = [path.resolve(__dirname, 'scripts/app.js'), path.resolve(__dirname, 'styles/main.scss')];
 
 const config = {
   entry: entry,
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, '/'),
-    publicPath: '/'
+    path: path.resolve(__dirname, './build'),
+    publicPath: '/build'
   },
 
   devtool: 'source-map',
@@ -34,7 +34,7 @@ const config = {
   },
   plugins: [
     new ExtractTextPlugin({
-      filename: 'bundle.css',
+      filename: '../style.css',
       allChunks: true
     })
   ]
