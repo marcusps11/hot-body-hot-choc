@@ -19,23 +19,24 @@ customers in August 2017 (here). Results may vary from person to person.
 </div>
 <div id="woo-commerce"></div>
 </div>
+<div class="product-home__container">
+  <h2>Buy Hot Chocolate Now</h2>
+  <?php
+  if ( storefront_is_woocommerce_activated() ) {
+    echo storefront_do_shortcode( 'best_selling_products', array(
+      'per_page' => 1,
+      'columns'  => 1,
+      ) );
 
-<?php
-if ( storefront_is_woocommerce_activated() ) {
-
-  echo storefront_do_shortcode( 'best_selling_products', array(
-    'per_page' => 1,
-    'columns'  => 1,
-    ) );
-
-    echo '</section>';
-  }
-  ?>
-<?php query_posts( array(
-   'category_name' => 'news',
-   'posts_per_page' => 3,
-)); ?>
-
+      echo '</section>';
+    }
+    ?>
+  <?php query_posts( array(
+    'category_name' => 'news',
+    'posts_per_page' => 3,
+  )); ?>
+</div>
+<div class="product-home__inspiration">
 <?php if( have_posts() ): while ( have_posts() ) : the_post(); ?>
 
    <?php the_excerpt(); ?>
@@ -46,3 +47,4 @@ if ( storefront_is_woocommerce_activated() ) {
    <p><?php __('No News'); ?></p>
 
 <?php endif; ?>
+</div>

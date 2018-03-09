@@ -232,21 +232,51 @@
   width: 100%;
   color: #000;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   background-size: contain; }
   .hb-home__hero-section-content {
     grid-column-start: 1;
+    grid-row-start: 1;
     grid-row-end: 2;
     padding: 20px;
-    color: #fff; }
+    color: #000;
+    padding-top: 200px; }
   .hb-home__hero-section-image {
-    grid-row-start: 1;
-    grid-column-start: 3;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center; }
+    margin: 0 auto;
+    display: block;
+    text-align: center; }
+    .hb-home__hero-section-image button {
+      margin-top: 20px; }
+
+@media (min-width: 768px) {
+  .hb-home__hero-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-size: contain;
+    position: relative; }
+    .hb-home__hero-section-content {
+      grid-column-start: 1;
+      grid-row-end: 2;
+      padding: 20px;
+      color: #fff;
+      padding-top: 0; }
+    .hb-home__hero-section-image {
+      position: absolute;
+      right: 50px;
+      top: 50%;
+      transform: translateY(-50%); } }
+
+.product-home__container {
+  text-align: center; }
+
+.product-home__inspiration {
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+  color: #000;
+  background-color: #ffcab1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%23f08743' fill-opacity='0.4'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E"); }
 
 * {
   box-sizing: border-box; }
