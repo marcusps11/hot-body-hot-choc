@@ -12,13 +12,14 @@ remove_action( 'storefront_header', 'storefront_product_search', 	40 );
 add_action('init','delay_remove');
 
 function delay_remove() {
-	remove_action( 'woocommerce_after_shop_loop', 'woocommerce_catalog_ordering', 10 );
+	remove_action( 'woocommerce_after_shop_loop', 'woocommerce_coloralog_ordering', 10 );
 	remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 10 );
 }
 
 
 function enqueue_parent_styles() {
 	 wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css' );
+	 wp_enqueue_script( 'parent-script', get_template_directory_child().'/build/bundle.js' );
 	 wp_enqueue_style('twentysixteen-style', get_template_directory_child().'/build/bundle.css');
 
 }
@@ -50,5 +51,21 @@ function remove_breadcrumbs() {
 
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
 add_filter( 'woocommerce_get_breadcrumb', '__return_false' );
+
+function add_defer_attribute($tag, $handle) {
+	// add script handles to the array below
+	$scripts_to_defer = array('my-js-handle', 'another-handle');
+
+	foreach($scripts_to_defer as $defer_script) {
+		 if ($defer_script === $handle) {
+				return str_replace(' src', ' defer="defer" src', $tag);
+		 }
+	}
+	return $tag;
+}
+
+add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
+
+
 
 ?>

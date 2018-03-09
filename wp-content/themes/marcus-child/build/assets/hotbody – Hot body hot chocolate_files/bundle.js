@@ -75,24 +75,18 @@ module.exports = __webpack_require__(2);
 /* 1 */
 /***/ (function(module, exports) {
 
-(function() {
-
+$( document ).ready(function() {
   const Controller = {
 
     getVars: function() {
-      this.message = document.querySelector('.offer-header')
+      this.message = document.querySelector('body')
       console.log(this.message)
-    },
-
-    init: function() {
-      document.addEventListener("DOMContentLoaded", function(event) {
-        Controller.getVars()
-      });
     }
-  }
 
-Controller.init()
-}())
+  }
+Controller.getVars();
+});
+
 
 
 /***/ }),

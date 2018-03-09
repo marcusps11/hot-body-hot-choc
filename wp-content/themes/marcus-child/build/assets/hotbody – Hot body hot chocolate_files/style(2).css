@@ -1,0 +1,610 @@
+
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://localhost:8887/xmlrpc.php">
+<link href="https://fonts.googleapis.com/css?family=Copse" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+<title>Page not found &#8211; hotbody</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="hotbody &raquo; Feed" href="http://localhost:8887/feed/" />
+<link rel="alternate" type="application/rss+xml" title="hotbody &raquo; Comments Feed" href="http://localhost:8887/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost:8887\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56794,8205,9794,65039],[55358,56794,8203,9794,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dashicons-css'  href='http://localhost:8887/wp-includes/css/dashicons.min.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='http://localhost:8887/wp-includes/css/admin-bar.min.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_frontend-css'  href='http://localhost:8887/wp-content/plugins/photo-gallery/css/bwg_frontend.css?ver=1.3.68' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_font-awesome-css'  href='http://localhost:8887/wp-content/plugins/photo-gallery/css/font-awesome/font-awesome.css?ver=4.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_mCustomScrollbar-css'  href='http://localhost:8887/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.css?ver=1.3.68' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_sumoselect-css'  href='http://localhost:8887/wp-content/plugins/photo-gallery/css/sumoselect.css?ver=3.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='http://localhost:8887/wp-content/themes/storefront/style.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentysixteen-style-css'  href='http://localhost:8887/wp-content/themes/marcus-child/build/bundle.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='storefront-style-css'  href='http://localhost:8887/wp-content/themes/storefront/style.css?ver=2.2.7' type='text/css' media='all' />
+<style id='storefront-style-inline-css' type='text/css'>
+
+			.main-navigation ul li a,
+			.site-title a,
+			ul.menu li a,
+			.site-branding h1 a,
+			.site-footer .storefront-handheld-footer-bar a:not(.button),
+			button.menu-toggle,
+			button.menu-toggle:hover {
+				color: #333333;
+			}
+
+			button.menu-toggle,
+			button.menu-toggle:hover {
+				border-color: #333333;
+			}
+
+			.main-navigation ul li a:hover,
+			.main-navigation ul li:hover > a,
+			.site-title a:hover,
+			a.cart-contents:hover,
+			.site-header-cart .widget_shopping_cart a:hover,
+			.site-header-cart:hover > li > a,
+			.site-header ul.menu li.current-menu-item > a {
+				color: #747474;
+			}
+
+			table th {
+				background-color: #f8f8f8;
+			}
+
+			table tbody td {
+				background-color: #fdfdfd;
+			}
+
+			table tbody tr:nth-child(2n) td,
+			fieldset,
+			fieldset legend {
+				background-color: #fbfbfb;
+			}
+
+			.site-header,
+			.secondary-navigation ul ul,
+			.main-navigation ul.menu > li.menu-item-has-children:after,
+			.secondary-navigation ul.menu ul,
+			.storefront-handheld-footer-bar,
+			.storefront-handheld-footer-bar ul li > a,
+			.storefront-handheld-footer-bar ul li.search .site-search,
+			button.menu-toggle,
+			button.menu-toggle:hover {
+				background-color: #ffffff;
+			}
+
+			p.site-description,
+			.site-header,
+			.storefront-handheld-footer-bar {
+				color: #404040;
+			}
+
+			.storefront-handheld-footer-bar ul li.cart .count,
+			button.menu-toggle:after,
+			button.menu-toggle:before,
+			button.menu-toggle span:before {
+				background-color: #333333;
+			}
+
+			.storefront-handheld-footer-bar ul li.cart .count {
+				color: #ffffff;
+			}
+
+			.storefront-handheld-footer-bar ul li.cart .count {
+				border-color: #ffffff;
+			}
+
+			h1, h2, h3, h4, h5, h6 {
+				color: #333333;
+			}
+
+			.widget h1 {
+				border-bottom-color: #333333;
+			}
+
+			body,
+			.secondary-navigation a,
+			.onsale,
+			.pagination .page-numbers li .page-numbers:not(.current), .woocommerce-pagination .page-numbers li .page-numbers:not(.current) {
+				color: #6d6d6d;
+			}
+
+			.widget-area .widget a,
+			.hentry .entry-header .posted-on a,
+			.hentry .entry-header .byline a {
+				color: #727272;
+			}
+
+			a  {
+				color: #96588a;
+			}
+
+			a:focus,
+			.button:focus,
+			.button.alt:focus,
+			.button.added_to_cart:focus,
+			.button.wc-forward:focus,
+			button:focus,
+			input[type="button"]:focus,
+			input[type="reset"]:focus,
+			input[type="submit"]:focus {
+				outline-color: #96588a;
+			}
+
+			button, input[type="button"], input[type="reset"], input[type="submit"], .button, .added_to_cart, .widget a.button, .site-header-cart .widget_shopping_cart a.button {
+				background-color: #eeeeee;
+				border-color: #eeeeee;
+				color: #333333;
+			}
+
+			button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover, .added_to_cart:hover, .widget a.button:hover, .site-header-cart .widget_shopping_cart a.button:hover {
+				background-color: #d5d5d5;
+				border-color: #d5d5d5;
+				color: #333333;
+			}
+
+			button.alt, input[type="button"].alt, input[type="reset"].alt, input[type="submit"].alt, .button.alt, .added_to_cart.alt, .widget-area .widget a.button.alt, .added_to_cart, .widget a.button.checkout {
+				background-color: #333333;
+				border-color: #333333;
+				color: #ffffff;
+			}
+
+			button.alt:hover, input[type="button"].alt:hover, input[type="reset"].alt:hover, input[type="submit"].alt:hover, .button.alt:hover, .added_to_cart.alt:hover, .widget-area .widget a.button.alt:hover, .added_to_cart:hover, .widget a.button.checkout:hover {
+				background-color: #1a1a1a;
+				border-color: #1a1a1a;
+				color: #ffffff;
+			}
+
+			.pagination .page-numbers li .page-numbers.current, .woocommerce-pagination .page-numbers li .page-numbers.current {
+				background-color: #e6e6e6;
+				color: #636363;
+			}
+
+			#comments .comment-list .comment-content .comment-text {
+				background-color: #f8f8f8;
+			}
+
+			.site-footer {
+				background-color: #f0f0f0;
+				color: #6d6d6d;
+			}
+
+			.site-footer a:not(.button) {
+				color: #333333;
+			}
+
+			.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
+				color: #333333;
+			}
+
+			#order_review {
+				background-color: #ffffff;
+			}
+
+			#payment .payment_methods > li .payment_box,
+			#payment .place-order {
+				background-color: #fafafa;
+			}
+
+			#payment .payment_methods > li:not(.woocommerce-notice) {
+				background-color: #f5f5f5;
+			}
+
+			#payment .payment_methods > li:not(.woocommerce-notice):hover {
+				background-color: #f0f0f0;
+			}
+
+			@media screen and ( min-width: 768px ) {
+				.secondary-navigation ul.menu a:hover {
+					color: #595959;
+				}
+
+				.secondary-navigation ul.menu a {
+					color: #404040;
+				}
+
+				.site-header-cart .widget_shopping_cart,
+				.main-navigation ul.menu ul.sub-menu,
+				.main-navigation ul.nav-menu ul.children {
+					background-color: #f0f0f0;
+				}
+
+				.site-header-cart .widget_shopping_cart .buttons,
+				.site-header-cart .widget_shopping_cart .total {
+					background-color: #f5f5f5;
+				}
+
+				.site-header {
+					border-bottom-color: #f0f0f0;
+				}
+			}
+</style>
+<link rel='stylesheet' id='storefront-icons-css'  href='http://localhost:8887/wp-content/themes/storefront/assets/sass/base/icons.css?ver=2.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='storefront-fonts-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,700,900&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='storefront-jetpack-style-css'  href='http://localhost:8887/wp-content/themes/storefront/assets/sass/jetpack/jetpack.css?ver=2.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='storefront-woocommerce-style-css'  href='http://localhost:8887/wp-content/themes/storefront/assets/sass/woocommerce/woocommerce.css?ver=2.2.7' type='text/css' media='all' />
+<style id='storefront-woocommerce-style-inline-css' type='text/css'>
+
+			a.cart-contents,
+			.site-header-cart .widget_shopping_cart a {
+				color: #333333;
+			}
+
+			table.cart td.product-remove,
+			table.cart td.actions {
+				border-top-color: #ffffff;
+			}
+
+			.woocommerce-tabs ul.tabs li.active a,
+			ul.products li.product .price,
+			.onsale,
+			.widget_search form:before,
+			.widget_product_search form:before {
+				color: #6d6d6d;
+			}
+
+			.woocommerce-breadcrumb a,
+			a.woocommerce-review-link,
+			.product_meta a {
+				color: #727272;
+			}
+
+			.onsale {
+				border-color: #6d6d6d;
+			}
+
+			.star-rating span:before,
+			.quantity .plus, .quantity .minus,
+			p.stars a:hover:after,
+			p.stars a:after,
+			.star-rating span:before,
+			#payment .payment_methods li input[type=radio]:first-child:checked+label:before {
+				color: #96588a;
+			}
+
+			.widget_price_filter .ui-slider .ui-slider-range,
+			.widget_price_filter .ui-slider .ui-slider-handle {
+				background-color: #96588a;
+			}
+
+			.order_details {
+				background-color: #f8f8f8;
+			}
+
+			.order_details > li {
+				border-bottom: 1px dotted #e3e3e3;
+			}
+
+			.order_details:before,
+			.order_details:after {
+				background: -webkit-linear-gradient(transparent 0,transparent 0),-webkit-linear-gradient(135deg,#f8f8f8 33.33%,transparent 33.33%),-webkit-linear-gradient(45deg,#f8f8f8 33.33%,transparent 33.33%)
+			}
+
+			p.stars a:before,
+			p.stars a:hover~a:before,
+			p.stars.selected a.active~a:before {
+				color: #6d6d6d;
+			}
+
+			p.stars.selected a.active:before,
+			p.stars:hover a:before,
+			p.stars.selected a:not(.active):before,
+			p.stars.selected a.active:before {
+				color: #96588a;
+			}
+
+			.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+				background-color: #eeeeee;
+				color: #333333;
+			}
+
+			.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger:hover {
+				background-color: #d5d5d5;
+				border-color: #d5d5d5;
+				color: #333333;
+			}
+
+			.button.loading {
+				color: #eeeeee;
+			}
+
+			.button.loading:hover {
+				background-color: #eeeeee;
+			}
+
+			.button.loading:after {
+				color: #333333;
+			}
+
+			@media screen and ( min-width: 768px ) {
+				.site-header-cart .widget_shopping_cart,
+				.site-header .product_list_widget li .quantity {
+					color: #404040;
+				}
+			}
+</style>
+<link rel='stylesheet' id='storefront-child-style-css'  href='http://localhost:8887/wp-content/themes/marcus-child/style.css?ver=4.9.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://localhost:8887/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://localhost:8887/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/plugins/photo-gallery/js/bwg_frontend.js?ver=1.3.68'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectsL10n = {"bwg_select_tag":"Select Tag","bwg_search":"Search"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/plugins/photo-gallery/js/jquery.mobile.js?ver=1.3.68'></script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=1.3.68'></script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/plugins/photo-gallery/js/jquery.fullscreen-0.4.1.js?ver=0.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectL10n = {"bwg_field_required":"field is required.","bwg_mail_validation":"This is not a valid email address.","bwg_search_result":"There are no images matching your search."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/plugins/photo-gallery/js/bwg_gallery_box.js?ver=1.3.68'></script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/themes/marcus-child/build/bundle.js?ver=4.9.2'></script>
+<link rel='https://api.w.org/' href='http://localhost:8887/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost:8887/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost:8887/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.2" />
+<meta name="generator" content="WooCommerce 3.3.1" />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+</head>
+
+<body class="error404 logged-in admin-bar no-customize-support storefront-full-width-content left-sidebar woocommerce-active">
+
+
+<div id="page" class="hfeed site">
+	
+	<header id="masthead" class="site-header fc-heade" role="banner" style="">
+		<div class="col-full">
+
+					<a class="skip-link screen-reader-text" href="#site-navigation">Skip to navigation</a>
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+				<div class="site-branding">
+			<div class="beta site-title"><a href="http://localhost:8887/" rel="home">hotbody</a></div><p class="site-description">Hot body hot chocolate</p>		</div>
+		<div class="storefront-primary-navigation">		<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Navigation">
+		<button class="menu-toggle" aria-controls="site-navigation" aria-expanded="false"><span>Menu</span></button>
+			<div class="primary-navigation"><ul id="menu-menu-navigation" class="menu"><li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-13"><a href="http://localhost:8887/">Home</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="http://localhost:8887/shop/">Shop</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="http://localhost:8887/checkout/">Checkout</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="http://localhost:8887/cart/">Cart</a></li>
+</ul></div><div class="menu"><ul>
+<li ><a href="http://localhost:8887/">Home</a></li><li class="page_item page-item-8"><a href="http://localhost:8887/cart/">Cart</a></li>
+<li class="page_item page-item-9"><a href="http://localhost:8887/checkout/">Checkout</a></li>
+<li class="page_item page-item-6"><a href="http://localhost:8887/shop/">Shop</a></li>
+</ul></div>
+		</nav><!-- #site-navigation -->
+				<ul id="site-header-cart" class="site-header-cart menu">
+			<li class="">
+							<a class="cart-contents" href="http://localhost:8887/cart/" title="View your shopping cart">
+				<span class="amount">&pound;24.00</span> <span class="count">8 items</span>
+			</a>
+					</li>
+			<li>
+				<div class="widget woocommerce widget_shopping_cart"><div class="widget_shopping_cart_content"></div></div>			</li>
+		</ul>
+		</div>
+		</div>
+		<div class="fc-header--secondary-menu">
+      <ul class="fc-header--secondary-menu__items">
+      <li class="fc-header--secondary-menu__item">
+         FREE WORLDWIDE DELIVERY Wherever You Are In The World.
+      </li>
+      <li class="fc-header--secondary-menu__item active">
+       20% OFF YOUR FIRST ORDER Use Code NEWME. Offer Ends MIDNIGHT!
+      </li>
+      <li class="fc-header--secondary-menu__item">
+         TRUSTED BY OVER 250,000 DIETERS Models, Personal Trainers.
+      </li>
+      <li class="fc-header--secondary-menu__item">
+         92% NOTICED VISIBLE RESULTS* Fast And Long-Lasting Results.
+      </li>
+      </ul>
+    </div>
+		<div class="offer-header"></div>
+	</header><!-- #masthead -->
+
+	
+	<div id="content" class="site-content" tabindex="-1">
+		<div class="col-full">
+
+		<div class="woocommerce"></div>
+	<div id="primary" class="content-area">
+
+		<main id="main" class="site-main" role="main">
+
+			<div class="error-404 not-found">
+
+				<div class="page-content">
+
+					<header class="page-header">
+						<h1 class="page-title">Oops! That page can&rsquo;t be found.</h1>
+					</header><!-- .page-header -->
+
+					<p>Nothing was found at this location. Try searching, or check out the links below.</p>
+
+					<section aria-label="Search"><div class="widget woocommerce widget_product_search"><form role="search" method="get" class="woocommerce-product-search" action="http://localhost:8887/">
+	<label class="screen-reader-text" for="woocommerce-product-search-field-0">Search for:</label>
+	<input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Search products&hellip;" value="" name="s" />
+	<button type="submit" value="Search">Search</button>
+	<input type="hidden" name="post_type" value="product" />
+</form>
+</div></section><div class="fourohfour-columns-2"><section class="col-1" aria-label="Promoted Products"><h2>New In Store</h2><div class="woocommerce columns-2 "><ul class="products columns-2">
+<li class="post-63 product type-product status-publish has-post-thumbnail product_cat-uncategorized first instock shipping-taxable product-type-simple">
+	<a href="http://localhost:8887/product/two-month-programme/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="324" height="324" src="//localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-324x324.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" srcset="//localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-324x324.jpg 324w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-150x150.jpg 150w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-300x300.jpg 300w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-416x416.jpg 416w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large.jpg 480w" sizes="(max-width: 324px) 100vw, 324px" /><h2 class="woocommerce-loop-product__title">two month programme</h2>
+</a><a href="http://localhost:8887/product/two-month-programme/" data-quantity="1" class="button product_type_simple ajax_add_to_cart" data-product_id="63" data-product_sku="" aria-label="Read more about &ldquo;two month programme&rdquo;" rel="nofollow">Read more</a></li>
+<li class="post-62 product type-product status-publish has-post-thumbnail product_cat-uncategorized last instock shipping-taxable product-type-simple">
+	<a href="http://localhost:8887/product/28-day-programme/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="324" height="324" src="//localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-324x324.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" srcset="//localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-324x324.jpg 324w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-150x150.jpg 150w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-300x300.jpg 300w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-416x416.jpg 416w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large.jpg 480w" sizes="(max-width: 324px) 100vw, 324px" /><h2 class="woocommerce-loop-product__title">28 day programme</h2>
+</a><a href="http://localhost:8887/product/28-day-programme/" data-quantity="1" class="button product_type_simple ajax_add_to_cart" data-product_id="62" data-product_sku="" aria-label="Read more about &ldquo;28 day programme&rdquo;" rel="nofollow">Read more</a></li>
+</ul>
+</div></section><nav class="col-2" aria-label="Product Categories"><h2>Product Categories</h2><div class="widget woocommerce widget_product_categories"><ul class="product-categories"><li class="cat-item cat-item-15"><a href="http://localhost:8887/product-category/uncategorized/">Uncategorized</a> <span class="count">(3)</span></li>
+</ul></div></nav></div><section aria-label="Popular Products"><h2>Popular Products</h2><div class="woocommerce columns-4 "><ul class="products columns-4">
+<li class="post-11 product type-product status-publish has-post-thumbnail product_cat-uncategorized first instock shipping-taxable purchasable product-type-simple">
+	<a href="http://localhost:8887/product/joss/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="324" height="324" src="//localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-324x324.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" srcset="//localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-324x324.jpg 324w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-150x150.jpg 150w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-300x300.jpg 300w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-416x416.jpg 416w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large.jpg 480w" sizes="(max-width: 324px) 100vw, 324px" /><h2 class="woocommerce-loop-product__title">joss</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>3.00</span></span>
+</a><a href="/wp-content/themes/marcus-child/style.css?ver=4.9.2&#038;add-to-cart=11" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="11" data-product_sku="" aria-label="Add &ldquo;joss&rdquo; to your cart" rel="nofollow">Add to cart</a></li>
+<li class="post-62 product type-product status-publish has-post-thumbnail product_cat-uncategorized  instock shipping-taxable product-type-simple">
+	<a href="http://localhost:8887/product/28-day-programme/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="324" height="324" src="//localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-324x324.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" srcset="//localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-324x324.jpg 324w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-150x150.jpg 150w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-300x300.jpg 300w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-416x416.jpg 416w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large.jpg 480w" sizes="(max-width: 324px) 100vw, 324px" /><h2 class="woocommerce-loop-product__title">28 day programme</h2>
+</a><a href="http://localhost:8887/product/28-day-programme/" data-quantity="1" class="button product_type_simple ajax_add_to_cart" data-product_id="62" data-product_sku="" aria-label="Read more about &ldquo;28 day programme&rdquo;" rel="nofollow">Read more</a></li>
+<li class="post-63 product type-product status-publish has-post-thumbnail product_cat-uncategorized  instock shipping-taxable product-type-simple">
+	<a href="http://localhost:8887/product/two-month-programme/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="324" height="324" src="//localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-324x324.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" srcset="//localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-324x324.jpg 324w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-150x150.jpg 150w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-300x300.jpg 300w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large-416x416.jpg 416w, //localhost:8887/wp-content/uploads/2018/02/28_Day_Program_large.jpg 480w" sizes="(max-width: 324px) 100vw, 324px" /><h2 class="woocommerce-loop-product__title">two month programme</h2>
+</a><a href="http://localhost:8887/product/two-month-programme/" data-quantity="1" class="button product_type_simple ajax_add_to_cart" data-product_id="63" data-product_sku="" aria-label="Read more about &ldquo;two month programme&rdquo;" rel="nofollow">Read more</a></li>
+</ul>
+</div></section>
+				</div><!-- .page-content -->
+			</div><!-- .error-404 -->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+		</div><!-- .col-full -->
+	</div><!-- #content -->
+
+	
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="col-full">
+
+			<br />
+<b>Warning</b>:  call_user_func_array() expects parameter 1 to be a valid callback, function 'custom_storefront_credit' not found or invalid function name in <b>/Users/marcusps/Desktop/development/wordpress-setup/wp-includes/class-wp-hook.php</b> on line <b>286</b><br />
+		<div class="storefront-handheld-footer-bar">
+			<ul class="columns-3">
+									<li class="my-account">
+						<a href="http://localhost:8887/my-account__trashed/">My Account</a>					</li>
+									<li class="search">
+						<a href="">Search</a>			<div class="site-search">
+				<div class="widget woocommerce widget_product_search"><form role="search" method="get" class="woocommerce-product-search" action="http://localhost:8887/">
+	<label class="screen-reader-text" for="woocommerce-product-search-field-1">Search for:</label>
+	<input type="search" id="woocommerce-product-search-field-1" class="search-field" placeholder="Search products&hellip;" value="" name="s" />
+	<button type="submit" value="Search">Search</button>
+	<input type="hidden" name="post_type" value="product" />
+</form>
+</div>			</div>
+							</li>
+									<li class="cart">
+									<a class="footer-cart-contents" href="http://localhost:8887/cart/" title="View your shopping cart">
+				<span class="count">8</span>
+			</a>
+							</li>
+							</ul>
+		</div>
+		
+		</div><!-- .col-full -->
+	</footer><!-- #colophon -->
+
+	
+</div><!-- #page -->
+
+<script>var _beeketing = JSON.parse('{"wc_version":"3.3.1","wp_version":"4.9.2","app_setting_key":"beeketing_salespop_settings","plugin_version":"1.1.7","php_version":"7.1.12","page_url":{"home":"http:\/\/localhost:8887\/shop\/","cart":"http:\/\/localhost:8887\/cart\/","checkout":"http:\/\/localhost:8887\/checkout\/"},"customer":{"id":1},"page":[]}');</script><script type='text/javascript' src='http://localhost:8887/wp-includes/js/admin-bar.min.js?ver=4.9.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"http:\/\/localhost:8887\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/localhost:8887\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"http:\/\/localhost:8887\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.3.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"http:\/\/localhost:8887\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_13f455787bc6d2565e95e2b5b58ed588","fragment_name":"wc_fragments_13f455787bc6d2565e95e2b5b58ed588"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/themes/storefront/assets/js/navigation.min.js?ver=2.2.7'></script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/themes/storefront/assets/js/skip-link-focus-fix.min.js?ver=20130115'></script>
+<script type='text/javascript' src='http://localhost:8887/wp-content/themes/storefront/assets/js/woocommerce/header-cart.min.js?ver=2.2.7'></script>
+<script type='text/javascript' src='http://localhost:8887/wp-includes/js/wp-embed.min.js?ver=4.9.2'></script>
+	<!--[if lte IE 8]>
+		<script type="text/javascript">
+			document.body.className = document.body.className.replace( /(^|\s)(no-)?customize-support(?=\s|$)/, '' ) + ' no-customize-support';
+		</script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+		<script type="text/javascript">
+			(function() {
+				var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+						request = true;
+		
+				b[c] = b[c].replace( rcs, ' ' );
+				// The customizer requires postMessage and CORS (if the site is cross domain)
+				b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+			}());
+		</script>
+	<!--<![endif]-->
+			<div id="wpadminbar" class="nojq nojs">
+							<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar" tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost:8887/wp-admin/about.php"><span class="ab-icon"></span><span class="screen-reader-text">About WordPress</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item" href="http://localhost:8887/wp-admin/about.php">About WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item" href="https://wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item" href="https://codex.wordpress.org/">Documentation</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item" href="https://wordpress.org/support/">Support Forums</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item" href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost:8887/wp-admin/">hotbody</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-dashboard"><a class="ab-item" href="http://localhost:8887/wp-admin/">Dashboard</a>		</li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu">
+		<li id="wp-admin-bar-themes"><a class="ab-item" href="http://localhost:8887/wp-admin/themes.php">Themes</a>		</li>
+		<li id="wp-admin-bar-widgets"><a class="ab-item" href="http://localhost:8887/wp-admin/widgets.php">Widgets</a>		</li>
+		<li id="wp-admin-bar-menus"><a class="ab-item" href="http://localhost:8887/wp-admin/nav-menus.php">Menus</a>		</li>
+		<li id="wp-admin-bar-background" class="hide-if-customize"><a class="ab-item" href="http://localhost:8887/wp-admin/themes.php?page=custom-background">Background</a>		</li>
+		<li id="wp-admin-bar-header" class="hide-if-customize"><a class="ab-item" href="http://localhost:8887/wp-admin/themes.php?page=custom-header">Header</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item" href="http://localhost:8887/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%3A8887%2Fwp-content%2Fthemes%2Fmarcus-child%2Fstyle.css%3Fver%3D4.9.2">Customize</a>		</li>
+		<li id="wp-admin-bar-updates"><a class="ab-item" href="http://localhost:8887/wp-admin/update-core.php" title="6 Plugin Updates, 1 Theme Update"><span class="ab-icon"></span><span class="ab-label">7</span><span class="screen-reader-text">6 Plugin Updates, 1 Theme Update</span></a>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item" href="http://localhost:8887/wp-admin/edit-comments.php"><span class="ab-icon"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text">0 comments awaiting moderation</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost:8887/wp-admin/post-new.php"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item" href="http://localhost:8887/wp-admin/post-new.php">Post</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item" href="http://localhost:8887/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item" href="http://localhost:8887/wp-admin/post-new.php?post_type=page">Page</a>		</li>
+		<li id="wp-admin-bar-new-product"><a class="ab-item" href="http://localhost:8887/wp-admin/post-new.php?post_type=product">Product</a>		</li>
+		<li id="wp-admin-bar-new-shop_order"><a class="ab-item" href="http://localhost:8887/wp-admin/post-new.php?post_type=shop_order">Order</a>		</li>
+		<li id="wp-admin-bar-new-shop_coupon"><a class="ab-item" href="http://localhost:8887/wp-admin/post-new.php?post_type=shop_coupon">Coupon</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item" href="http://localhost:8887/wp-admin/user-new.php">User</a>		</li></ul></div>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://localhost:8887/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Search</label><input type="submit" class="adminbar-button" value="Search"/></form></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="http://localhost:8887/wp-admin/profile.php">Howdy, <span class="display-name">foxcoast_dev</span><img alt='' src='http://2.gravatar.com/avatar/5ec3dd8f01a4dacd2b3feaa060dc175c?s=26&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/5ec3dd8f01a4dacd2b3feaa060dc175c?s=52&#038;d=mm&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://localhost:8887/wp-admin/profile.php"><img alt='' src='http://2.gravatar.com/avatar/5ec3dd8f01a4dacd2b3feaa060dc175c?s=64&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/5ec3dd8f01a4dacd2b3feaa060dc175c?s=128&#038;d=mm&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>foxcoast_dev</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item" href="http://localhost:8887/wp-admin/profile.php">Edit My Profile</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://localhost:8887/wp-login.php?action=logout&#038;_wpnonce=633b4b3740">Log Out</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://localhost:8887/wp-login.php?action=logout&#038;_wpnonce=633b4b3740">Log Out</a>
+					</div>
+
+		
+</body>
+</html>
