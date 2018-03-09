@@ -1,5 +1,3 @@
-<!-- // Template Name: Classes page 	 -->
-
 
 <?php
 

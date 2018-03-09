@@ -1,11 +1,20 @@
+html {
+  height: 100%;
+}
+
+.col-full {
+  padding: 0 !important;
+  margin: 0 auto!important;
+  max-width: 90% !important;
+}
+
+
+
 .hb-home {
   &__hero-section {
-    background: url('/wp-content/themes/marcus-child/build/assets/home.jpg') no-repeat;
+    background: url('/wp-content/themes/marcus-child/build/assets/homepage.jpg') no-repeat;
     width: 100%;
     color: $color-black;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     background-size: contain;
 
 
@@ -31,12 +40,18 @@
 }
 
 @include breakpoint(midDisplay) {
+
+.col-full {
+  padding: 0;
+  margin: 0;
+}
   .hb-home {
     &__hero-section {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      background-size: contain;
-      position: relative;
+      padding: 140px;
+      @include breakpoint(largeDisplay) {
+      padding: 200px
+      }
+
 
       &-content {
         grid-column-start: 1;
