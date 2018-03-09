@@ -63,7 +63,12 @@
       </li>
       </ul>
     </div>
-		<div class="offer-header"></div>
+		<div class="offer-header">
+			<p>Hurry use code HOTBODY for 50% off - code runs out in:</p>
+    <span id="hours"></span>
+    <span id="minutes"></span>
+    <span id="seconds"></span>
+		</div>
 	</header><!-- #masthead -->
 
 	<?php
