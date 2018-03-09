@@ -1,3 +1,6 @@
+<!-- // Template Name: Classes page 	 -->
+
+
 <?php
 
 add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' );
@@ -17,9 +20,20 @@ function delay_remove() {
 
 
 function enqueue_parent_styles() {
-   wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css' );
+	 wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css' );
+	 wp_enqueue_style('twentysixteen-style', get_template_directory_child().'/build/bundle.css');
 
 }
+
+function get_template_directory_child() {
+	$directory_template = get_template_directory_uri();
+	$directory_child = str_replace('storefront', '', $directory_template) . 'marcus-child';
+	return $directory_child;
+}
+
+add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' ); //hooking/adding those scripts and stylesheets to wordpress
+
+// wp_register_style( 'bundle.css', get_stylesheet_directory_uri());
 
 // Remove "Storefront Designed by WooThemes" from Footer
 add_action( 'init', 'custom_remove_footer_credit', 10 );

@@ -10,7 +10,7 @@ const config = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, './build'),
-    publicPath: '/build'
+    publicPath: '/'
   },
 
   devtool: 'source-map',
@@ -34,7 +34,7 @@ const config = {
   },
   plugins: [
     new ExtractTextPlugin({
-      filename: '../style.css',
+      filename: '/bundle.css',
       allChunks: true
     })
   ]

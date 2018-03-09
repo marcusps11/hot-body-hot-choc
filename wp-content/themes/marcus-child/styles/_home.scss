@@ -1,15 +1,18 @@
 .hb-home {
   &__hero-section {
-    background: url('/assets/images/hero-section.jpg') no-repeat;
+    background: url('/wp-content/themes/marcus-child/build/assets/home.jpg') no-repeat;
     width: 100%;
     color: $color-black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    background-size: contain;
 
     &-content {
-      grid-column-start: 2;
+      grid-column-start: 1;
       grid-row-end: 2;
+      padding: 20px;
+      color: $color-white;
     }
 
     &-image {
