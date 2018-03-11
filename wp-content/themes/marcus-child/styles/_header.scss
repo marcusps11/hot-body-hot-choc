@@ -20,6 +20,14 @@
     @include breakpoint(midDisplay) {
       top: 1.8rem;
     }
+
+    &-item {
+      color: grey;
+
+      span {
+        font-weight: bold;
+      }
+    }
   }
 
   &__logo {
@@ -199,6 +207,11 @@
     width: 100%;
     padding: 20px;
     background: $color-grey;
+    color: $color-black;
+
+    span {
+      font-weight: bold;
+    }
 
     &.active {
       background: $color-pink;
@@ -217,8 +230,18 @@
   padding: 20px;
   margin-top: 10px;
   color: $color-black;
+
+  p {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  span {
+    font-weight: bold;
+  }
 }
 
 .woocommerce-message {
   background-color: $color-pink !important;
 }
+

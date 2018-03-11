@@ -20,6 +20,48 @@ const moment = require('moment');
        //create two variables for holding the date for 30 back from now using    substract
        var back30Days=moment().subtract(1, 'days').format('YYYY-MM-DD H:mm:ss');
        var countDownSeconds= Math.floor(moment().diff(back30Days, 'seconds'));
+       let resetCLock = (Math.floor(moment().diff(moment().hour(23).minute(59).second(0), 'seconds')));
+       let timeUntilMidday = (Math.floor(moment().diff(moment().hour(20).minute(01).second(0), 'seconds')));
+       let hoursLeft = timeUntilMidday / 3600;
+       var y = timeUntilMidday.toString().split('.');
+       var z = parseFloat(y.shift())
+      //  console.log(timeUntilMidday)
+      //  let minutesLeft =
+      // 23111 seconds
+      // 6 hours
+
+      // 23111 - 3 * 3600 = 1511
+
+      // 1511 / 60 = 25.183 minutes
+
+      // 18 seconds
+
+      // let hoursLeft = timeUntilMidday / 3600;
+      // let arrayOfHoursLeft = timeUntilMidday.toString().split('.');
+      // let Hours = parseFloat(y.shift());
+      // let leftOverTimeMinusHours = timeUntilMidday - hoursToMinus * 3600;
+      // let minutesLeft =  leftOverTimeMinusHours / 60;
+
+      // window.setInterval(() => {
+      //   timeUntilMidday++
+      //   if(timeUntilMidday === 0) {
+      //     timeUntilMidday = resetCLock;
+      //   }
+      //   let hoursLeft = timeUntilMidday / 3600;
+      //   let arrayOfHoursLeft = timeUntilMidday.toString().split('.');
+      //   let Hours = parseFloat(arrayOfHoursLeft.shift());
+      //   let leftOverTimeMinusHours = timeUntilMidday - Hours * 3600;
+      //   let minutesLeft =  leftOverTimeMinusHours / 60;
+      //   console.log(arrayOfHoursLeft,  Hours, leftOverTimeMinusHours, minutesLeft)
+      // },1000)
+
+      //  = 0 hours 2 minutes 10 seconds
+      //  set an interval every second we want to munuts from this number
+      //  if this the countdown equals 0 we want to reset the time till mignight
+
+      //   Hours =  60 = 3600 seconds in an hour
+
+
 
          //variables holding days, hours , minutes and seconds
          var Days, Minutes,Hours,Seconds;

@@ -49,17 +49,17 @@
 		</div>
 		<div class="fc-header--secondary-menu">
       <ul class="fc-header--secondary-menu__items">
-      <li class="fc-header--secondary-menu__item">
-         FREE WORLDWIDE DELIVERY Wherever You Are In The World.
+			<li class="fc-header--secondary-menu__item">
+         <span>FREE WORLDWIDE DELIVERY</span><br> Wherever You Are In The World.
       </li>
       <li class="fc-header--secondary-menu__item active">
-       20% OFF YOUR FIRST ORDER Use Code NEWME. Offer Ends MIDNIGHT!
+      <span> 20% OFF YOUR FIRST ORDER</span><br> Use Code NEWME. Offer Ends MIDNIGHT!
       </li>
       <li class="fc-header--secondary-menu__item">
-         TRUSTED BY OVER 250,000 DIETERS Models, Personal Trainers.
+        <span> TRUSTED BY OVER 250,000</span><br>Dieters,  Models, Personal Trainers.
       </li>
       <li class="fc-header--secondary-menu__item">
-         92% NOTICED VISIBLE RESULTS* Fast And Long-Lasting Results.
+         <span>92% NOTICED VISIBLE RESULTS*</span><br> Fast And Long-Lasting Results.
       </li>
       </ul>
     </div>

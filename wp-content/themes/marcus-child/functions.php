@@ -1,4 +1,3 @@
-
 <?php
 
 add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' );
@@ -35,11 +34,15 @@ add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' ); //hooking/adding th
 // wp_register_style( 'bundle.css', get_stylesheet_directory_uri());
 
 // Remove "Storefront Designed by WooThemes" from Footer
-add_action( 'init', 'custom_remove_footer_credit', 10 );
-function custom_remove_footer_credit () {
-    remove_action( 'storefront_footer', 'storefront_credit', 20 );
-    add_action( 'storefront_footer', 'custom_storefront_credit', 20 );
-}
+// add_action( 'init', 'custom_remove_footer_credit', 10 );
+// function custom_remove_footer_credit () {
+//     remove_action( 'storefront_footer', 'storefront_credit', 20 );
+//     add_action( 'storefront_footer', 'custom_storefront_credit', 20 );
+// }
+
+// remove default sorting dropdown
+remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
+
 
 // Remove breadcrumbs from shop & categories
 add_filter( 'woocommerce_before_main_content', 'remove_breadcrumbs');
@@ -66,6 +69,7 @@ function add_defer_attribute($tag, $handle) {
 
 add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
 
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
 
 
 ?>

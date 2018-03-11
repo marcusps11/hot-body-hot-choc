@@ -52,3 +52,5 @@ get_header();
     'posts_per_page' => 3,
   )); ?>
 </div>
+<?php
+get_footer();
