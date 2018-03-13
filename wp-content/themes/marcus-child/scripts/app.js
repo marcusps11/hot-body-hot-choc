@@ -21,11 +21,24 @@ const moment = require('moment');
        var back30Days=moment().subtract(1, 'days').format('YYYY-MM-DD H:mm:ss');
        var countDownSeconds= Math.floor(moment().diff(back30Days, 'seconds'));
        let resetCLock = (Math.floor(moment().diff(moment().hour(23).minute(59).second(0), 'seconds')));
-       let timeUntilMidday = (Math.floor(moment().diff(moment().hour(20).minute(01).second(0), 'seconds')));
-       let hoursLeft = timeUntilMidday / 3600;
-       var y = timeUntilMidday.toString().split('.');
-       var z = parseFloat(y.shift())
-      //  console.log(timeUntilMidday)
+       let timeUntilMidday = Math.abs(Math.floor(moment().diff(moment().hour(24).minute(00).second(0), 'seconds')));
+       let wholeHoursLeft = timeUntilMidday / 3600;
+       let arrayOfHours = wholeHoursLeft.toString().split('.');
+       let hoursToMultiply = parseFloat(arrayOfHours.shift())
+       let convertHoursToSecondsAndGetNewTotal = 3600 * hoursToMultiply;
+       let newTotal = (24 - wholeHoursLeft) * convertHoursToSecondsAndGetNewTotal;
+       let totalHoursMinusNewTotalInSeconds = 86400 - newTotal;
+       let howManyHoursLeft = (totalHoursMinusNewTotalInSeconds / 3600);
+       console.log( `there are ${howManyHoursLeft} full hours left `)
+       let wholeHours = howManyHoursLeft.toString().split('.').shift();
+       let secondsToMinutes = parseFloat(3600 * wholeHours);
+       let finalTotal = totalHoursMinusNewTotalInSeconds - secondsToMinutes;
+       let remainingTime = (totalHoursMinusNewTotalInSeconds - secondsToMinutes) / 60;
+       console.log(`there are ${remainingTime} minutes left`)
+      let fullMins = parseFloat(remainingTime.toString().split('.').shift());
+       let secondsLeft = (finalTotal -  60 * fullMins )
+      console.log(`There re ${wholeHours} hours, ${fullMins} minutes, ${secondsLeft} secoonds left till midnight`)
+
       //  let minutesLeft =
       // 23111 seconds
       // 6 hours
