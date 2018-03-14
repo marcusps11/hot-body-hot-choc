@@ -16279,26 +16279,27 @@ const moment = __webpack_require__(0);
     },
 
     getTime: function() {
+
       window.setInterval(() => {
+      let timeUntilMidnight = Math.abs(Math.floor(moment().diff(moment().hour(24).minute(00).second(0), 'seconds')));
        //create two variables for holding the date for 30 back from now using    substract
-       var back30Days=moment().subtract(1, 'days').format('YYYY-MM-DD H:mm:ss');
-       let timeUntilMidnight = Math.abs(Math.floor(moment().diff(moment().hour(24).minute(00).second(0), 'seconds')));
+      //  let timeUntilMidnight = Math.abs(Math.floor(moment().diff(moment().hour(24).minute(00).second(0), 'seconds')));
        let wholeHoursLeft = timeUntilMidnight / 3600;
        let arrayOfHours = wholeHoursLeft.toString().split('.');
+      //  This is how many whole hours there are until midnight
        let hoursToMultiply = parseFloat(arrayOfHours.shift())
+        // This is how many seconds are left in the day
        let convertHoursToSecondsAndGetNewTotal = 3600 * hoursToMultiply;
-       let newTotal = (24 - wholeHoursLeft) * convertHoursToSecondsAndGetNewTotal;
-       let totalHoursMinusNewTotalInSeconds = 86400 - newTotal;
-       let howManyHoursLeft = (totalHoursMinusNewTotalInSeconds / 3600);
-       let wholeHours = howManyHoursLeft.toString().split('.').shift();
-       let secondsToMinutes = parseFloat(3600 * wholeHours);
-       let finalTotal = totalHoursMinusNewTotalInSeconds - secondsToMinutes;
-       let remainingTime = (totalHoursMinusNewTotalInSeconds - secondsToMinutes) / 60;
-      let fullMins = parseFloat(remainingTime.toString().split('.').shift());
-       let secondsLeft = (finalTotal -  60 * fullMins )
-        document.getElementById("hours").innerHTML=wholeHours + ' Hours';
-        document.getElementById("minutes").innerHTML=fullMins+ ' Minutes';
-        document.getElementById("seconds").innerHTML=secondsLeft + ' Seconds';
+       let howManySecondsHavePassedToday = 86400 - convertHoursToSecondsAndGetNewTotal;
+
+       let totalTimeLeft = timeUntilMidnight - convertHoursToSecondsAndGetNewTotal;
+       let minsLeft = (totalTimeLeft / 60);
+       let parsedMins = parseFloat(minsLeft.toString().split('.').shift());
+       let final = totalTimeLeft - (parsedMins * 60);
+
+        document.getElementById("hours").innerHTML=hoursToMultiply + ' Hours';
+        document.getElementById("minutes").innerHTML=parsedMins+ ' Minutes';
+        document.getElementById("seconds").innerHTML=final + ' Seconds';
 
       },1000)
     }
