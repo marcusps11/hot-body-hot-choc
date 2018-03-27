@@ -17,6 +17,7 @@
 <link href="https://fonts.googleapis.com/css?family=Copse" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
+
 <?php wp_head(); ?>
 </head>
 

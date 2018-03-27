@@ -352,6 +352,50 @@ ul.products li.product .button {
   background-color: #52414C !important;
   color: #fff !important; }
 
+.main-gallery {
+  background: #fff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  border-top: solid 30px #FFCAB1;
+  text-align: center; }
+
+.gallery-cell {
+  width: 100%; }
+  @media (min-width: 768px) {
+    .gallery-cell {
+      width: 48%;
+      display: inline-block; } }
+
+.heading-main {
+  padding-top: 20px; }
+
+.testimonial {
+  text-align: center;
+  max-width: 850px;
+  margin: 100px auto 130px auto;
+  padding: 0 20px; }
+
+.testimonial-avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto; }
+
+.testimonial-quote {
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 10px 0; }
+
+.testimonial-author {
+  display: block;
+  font-weight: 800;
+  color: #313534; }
+
+.flickity-page-dots {
+  bottom: 25px; }
+
+.flickity-page-dots .dot.is-selected {
+  background: #313534; }
+
 * {
   box-sizing: border-box; }
 

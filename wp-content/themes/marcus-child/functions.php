@@ -17,7 +17,6 @@ function delay_remove() {
 
 
 function enqueue_parent_styles() {
-	 wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css' );
 	 wp_enqueue_script( 'parent-script', get_template_directory_child().'/build/bundle.js' );
 	 wp_enqueue_style('twentysixteen-style', get_template_directory_child().'/build/bundle.css');
 
@@ -70,6 +69,4 @@ function add_defer_attribute($tag, $handle) {
 add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
 
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
-
-
 ?>

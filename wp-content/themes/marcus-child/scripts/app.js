@@ -1,5 +1,6 @@
 const moment = require('moment');
 
+
 (function() {
 
   const Controller = {
@@ -12,6 +13,7 @@ const moment = require('moment');
     init: function() {
       document.addEventListener("DOMContentLoaded", function(event) {
         Controller.getVars()
+        Controller.initCarousel();
       });
     },
 
@@ -19,7 +21,6 @@ const moment = require('moment');
 
       window.setInterval(() => {
       let timeUntilMidnight = Math.abs(Math.floor(moment().diff(moment().hour(24).minute(00).second(0), 'seconds')));
-       //create two variables for holding the date for 30 back from now using    substract
       //  let timeUntilMidnight = Math.abs(Math.floor(moment().diff(moment().hour(24).minute(00).second(0), 'seconds')));
        let wholeHoursLeft = timeUntilMidnight / 3600;
        let arrayOfHours = wholeHoursLeft.toString().split('.');
@@ -39,7 +40,13 @@ const moment = require('moment');
         document.getElementById("seconds").innerHTML=final + ' Seconds';
 
       },1000)
+    },
+
+    initCarousel() {
+
     }
+
+
   }
 
 Controller.init()

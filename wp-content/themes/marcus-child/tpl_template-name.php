@@ -6,7 +6,6 @@ get_header();
 
 <div class="hb-home">
 <div class="hb-home__hero-section">
-<img src="<?php echo get_stylesheet_directory_uri(); ?>/build/assets/images/homepage.jpg" alt="" width="" height="" />
 
 <div class="hb-home__hero-section-content">
 
@@ -51,6 +50,12 @@ get_header();
     'category_name' => 'news',
     'posts_per_page' => 3,
   )); ?>
+</div>
+<div class="testimonials">
+<?php
+get_template_part( 'testimonials', 'tpl_template-name' );
+
+?>
 </div>
 <?php
 get_footer();
