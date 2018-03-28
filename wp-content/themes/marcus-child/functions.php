@@ -69,4 +69,6 @@ function add_defer_attribute($tag, $handle) {
 add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
 
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
+
+
 ?>

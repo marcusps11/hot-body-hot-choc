@@ -57,5 +57,24 @@ get_template_part( 'testimonials', 'tpl_template-name' );
 
 ?>
 </div>
+<div class="social">
+<?php query_posts( array(
+    'category_name' => 'instagram',
+    'posts_per_page' => 3,
+  )); ?>
+</div>
+<div class="product-home__inspiration">
+<?php if( have_posts() ): while ( have_posts() ) : the_post(); ?>
+<?php echo do_shortcode('[instagram-feed]'); ?>
+
+   <?php the_excerpt(); ?>
+   <?php endwhile; ?>
+
+<?php else : ?>
+
+   <p><?php __('No News'); ?></p>
+
+<?php endif; ?>
+</div>
 <?php
 get_footer();
