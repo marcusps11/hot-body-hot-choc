@@ -70,5 +70,22 @@ add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
 
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
 
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+
+function custom_override_checkout_fields( $fields ) {
+unset($fields['billing']['billing_company']);
+
+return $fields;
+}
+
+add_filter( 'wc_stripe_payment_icons', 'change_my_icons' );
+function change_my_icons( $icons ) {
+        // var_dump( $icons ); to show all possible icons to change.
+		$icons['visa'] = '<img src="http://localhost:8887/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.svg" />';
+		$icons['mastercard'] = '<img src="http://localhost:8887/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.png" />';
+		$icons['amex'] = '<img src="http://localhost:8887/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.png" />';
+
+    return $icons;
+}
 
 ?>
