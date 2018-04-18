@@ -78,6 +78,13 @@ unset($fields['billing']['billing_company']);
 return $fields;
 }
 
+add_filter( 'storefront_handheld_footer_bar_links', 'jk_remove_handheld_footer_links' );
+function jk_remove_handheld_footer_links( $links ) {
+	unset( $links['my-account'] );
+	unset( $links['search'] );
+
+	return $links;
+}
 add_filter( 'wc_stripe_payment_icons', 'change_my_icons' );
 function change_my_icons( $icons ) {
         // var_dump( $icons ); to show all possible icons to change.
@@ -87,5 +94,11 @@ function change_my_icons( $icons ) {
 
     return $icons;
 }
+
+// This theme uses wp_nav_menu() in two locations.
+register_nav_menus( array(
+  'primary' => __( 'Primary Navigation', 'marcus-child' ),
+  'secondary' => __('Secondary Navigation', 'marcus-child')
+) );
 
 ?>

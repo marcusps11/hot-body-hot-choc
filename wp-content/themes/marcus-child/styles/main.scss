@@ -1,3 +1,4 @@
+@import 'fonts';
 @import 'breakpoints';
 @import 'variables';
 @import 'mixins';
@@ -7,8 +8,8 @@
 @import 'home';
 @import 'product-home';
 @import 'testimonials';
-
-
+@import 'social';
+@import 'why';
 * {
   box-sizing: border-box;
 }
@@ -29,7 +30,6 @@ body {
   background: $color-white;
   font-family: $font-primary;
   color: $color-white;
-
   &.menu-active {
     overflow: hidden;
   }
@@ -55,20 +55,17 @@ li {
   position: relative;
   padding: 6rem 1.5rem;
   min-height: 100vh;
-
   &__title {
     font-size: 4rem;
     margin-bottom: 2rem;
     text-shadow: $text-shadow;
     font-family: $font-primary;
   }
-
   &__sub-title {
     text-shadow: $text-shadow;
     font-weight: 300;
     font-family: $font-secondary;
   }
-
   &__inner {
     position: relative;
     z-index: 1;
@@ -78,7 +75,6 @@ li {
     padding: 0 1.5rem;
     width: 100%;
   }
-
   &__illustration {
     position: absolute;
     z-index: 0;
@@ -87,21 +83,18 @@ li {
     width: 100%;
     height: 100%;
   }
-
   &--hero {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
     .fc-home-section__inner {
       opacity: 0;
       transition: opacity .3s, transform .3s;
       transition-delay: 1.2s;
       transform: translateY(100px);
     }
-
     .dawn & {
       .fc-home-section__inner {
         opacity: 1;
@@ -109,16 +102,13 @@ li {
       }
     }
   }
-
   &--services,
   &--contact {
     display: flex;
     align-items: center;
   }
-
   &--contact {
     background: $color-section-contact;
-
     .fc-section__title {
       margin-bottom: 4rem;
     }
@@ -130,22 +120,18 @@ li {
     opacity: 1;
     transition: opacity .3s ease-in-out;
     transition-delay: 2s;
-
     .dawn & {
       opacity: 0;
     }
   }
-
   &__complete {
     opacity: 0;
     transition: opacity .3s ease-in-out;
     transition-delay: 1.2s;
-
     .dawn & {
       opacity: 1;
     }
   }
-
   &__asset {
     bottom: 0;
     height: auto;
@@ -158,24 +144,19 @@ li {
     right: 0;
     top: 0;
     width: 100%;
-
     &--dawn-foam {
       z-index: 1;
     }
-
     &--dawn-fox {
       z-index: 2;
     }
-
     &--sun {
       transform: translateY(120px);
       transition: transform .3s ease-in-out;
-
       .dawn & {
         transform: translateY(0);
       }
     }
-
     &--dawn-foam,
     &--dawn-sky,
     &--dawn-sea,
@@ -184,24 +165,20 @@ li {
       opacity: 0;
       transition: opacity .3s ease-in-out;
       transition-delay: .4s;
-
       .dawn & {
         opacity: 1;
       }
     }
-
     &--sky,
     &--sea,
     &--foreground {
       opacity: 1;
       transition: opacity .1s ease-in-out;
       transition-delay: 1s;
-
       .dawn & {
         opacity: 0;
       }
     }
-
     &--dawn-fox {
       transition-delay: .2s;
     }
@@ -210,7 +187,6 @@ li {
 
 .fc-section {
   text-align: center;
-
   &__title {
     color: $color-white;
     text-align: left;
@@ -218,16 +194,13 @@ li {
     line-height: 1;
     font-family: $font-primary;
     margin-bottom: 2rem;
-
     @include breakpoint(midDisplay) {
       font-size: 5.8rem;
     }
   }
-
   &__subtitle {
     font-size: 1.8rem;
     line-height: 1;
-
     @include breakpoint(midDisplay) {
       font-size: 2.2rem;
     }
@@ -239,7 +212,6 @@ li {
   margin: 0 auto;
   padding: 10px;
   color: $color-white;
-
   img {
     width: 100%;
     height: 100%;
@@ -257,4 +229,3 @@ li {
 .button {
   background-color: $color-purple !important;
 }
-

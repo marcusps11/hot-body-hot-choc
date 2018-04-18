@@ -14,4 +14,11 @@
       <span class="testimonial-author">Zoe 28</span>
     </div>
   </div>
+  <div class="gallery-cell">
+     <div class="testimonial">
+     <img class="testimonial-avatar" src="<?php bloginfo('stylesheet_directory') ?>/assets/images/hannah.jpg">
+      <q class="testimonial-quote">I definitely found a difference in my appetite and energy levels - I'm 3 days in and already loving it!</q>
+      <span class="testimonial-author">Hannah 28</span>
+    </div>
+  </div>
 </div>

@@ -1,17 +1,15 @@
-
 .main-gallery {
   background: #fff;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
   border-top: solid 30px $color-pink;
   text-align: center;
-
 }
 
 .gallery-cell {
   width: 100%;
   @include breakpoint(midDisplay) {
-    width: 48%;
+    width: 32%;
     display: inline-block;
+    margin: 0;
   }
 }
 
@@ -28,7 +26,7 @@
 
 .testimonial-avatar {
   width: 100px;
-  border-radius: 50%;
+  border-radius: 48%;
   margin: 0 auto;
 }
 
@@ -37,6 +35,7 @@
   font-size: 24px;
   font-weight: 300;
   padding: 10px 0;
+  min-height: 160px;
 }
 
 .testimonial-author {

@@ -35,7 +35,7 @@ get_header();
 </div>
 
 <div class="product-home__container">
-  <h2>Buy Hot Chocolate Now</h2>
+  <h2>28 days to get a hot body</h2>
   <?php
   if ( storefront_is_woocommerce_activated() ) {
     echo storefront_do_shortcode( 'best_selling_products', array(
@@ -54,6 +54,12 @@ get_header();
 <div class="testimonials">
 <?php
 get_template_part( 'testimonials', 'tpl_template-name' );
+
+?>
+</div>
+<div class="hb-why">
+<?php
+get_template_part( 'why', 'tpl_template-name' );
 
 ?>
 </div>

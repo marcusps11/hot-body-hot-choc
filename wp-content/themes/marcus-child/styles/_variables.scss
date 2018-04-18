@@ -1,5 +1,7 @@
-$font-primary: 'Copse', sans-serif;
-$font-secondary: 'Quicksand', sans-serif;
+$font-primary: 'Copse',
+sans-serif;
+$font-secondary: 'Quicksand',
+sans-serif;
 $color-white: #fff;
 $color-black: #313534;
 $color-grey: #f3f3f3;
@@ -12,16 +14,8 @@ $color-orange: #F08743;
 $color-pink: #FFCAB1;
 $color-purple: #52414C;
 $color-creme: #ECDCB0;
-
 $footer-color: #122138;
 $form-input-color: #577fb3;
-
 // Shadows
 $color-black-alpha: rgba(0, 0, 0, .22);
 $text-shadow: 0 .1rem .1rem $color-black-alpha;
-
-:root {
-  --sparkle-animation-time: 2s;
-  --sparkle-top: 10px;
-  --sparkle-left: 10px;
-}
